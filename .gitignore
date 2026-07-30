@@ -3,4 +3,5 @@ node_modules/
 firebase-debug.log
 firebase-debug.*.log
 .DS_Store
+gha-creds-*.json
 
