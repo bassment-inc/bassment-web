@@ -1,0 +1,10 @@
+{
+  "name": "bassment-web",
+  "private": true,
+  "scripts": {
+    "deploy": "firebase deploy --only hosting"
+  },
+  "devDependencies": {
+    "firebase-tools": "latest"
+  }
+}
