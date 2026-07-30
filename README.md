@@ -1,3 +1,13 @@
-# BASSMENT static website
+# bassment-web
 
-Firebase Hosting向け静的書き出しです。`firebase use --add` でプロジェクトを設定後、`firebase deploy --only hosting` で公開できます。
+Official website for BASSMENT Inc.
+
+Firebase Hosting向け静的サイトです。
+
+## Deploy
+
+```sh
+npm install
+npm run deploy
+```
+
