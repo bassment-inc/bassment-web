@@ -40,5 +40,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Build and validate SEO files
+        run: npm run build
+
       - name: Deploy Firebase Hosting
         run: npx firebase-tools deploy --only hosting --project bassment-web --non-interactive

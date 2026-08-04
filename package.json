@@ -2,6 +2,7 @@
   "name": "bassment-web",
   "private": true,
   "scripts": {
+    "build": "node scripts/build-seo.mjs",
     "deploy": "firebase deploy --only hosting"
   },
   "devDependencies": {
